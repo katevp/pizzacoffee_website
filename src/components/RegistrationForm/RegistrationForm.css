@@ -1,0 +1,169 @@
+.register_form {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 440px;
+}
+
+.register_title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 120%;
+  margin-top: 0;
+}
+
+.register_input, .register_input:focus, .register_input:focus-visible {
+  height: 54px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #6B9D52;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+
+.register_input::placeholder {
+  font-size: 20px;
+}
+
+.form_error {
+  color: #D40000;
+}
+
+.button_submit_form {
+  height: 54px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #7d7e7d;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: white;
+  font-size: 22px;
+}
+
+.form_sms_code {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.info_sms_code_time {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.button_submit_code {
+  padding: 5px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  background-color: #9fd683;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.register_form_link {
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.field_error, .field_error:focus, .field_error:focus-visible {
+  outline: none;
+  border: 2px solid #D40000;
+}
+
+.personal_data_title {
+  text-align: start;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 120%;
+  margin-top: 10px;
+}
+
+.personal_data_form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.label_input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.label_input_text {
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+.label_input_area {
+  display: flex;
+}
+
+.edit_input_button {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.personal_input {
+  height: 40px;
+  border: 1px solid gray;
+}
+
+.edit_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.disabled_input {
+  background-color: #e3e3e3;
+}
+
+.personal_data_distribution_title {
+  font-size: 20px;
+  line-height: 120%;
+  text-align: start;
+  font-weight: 500;
+}
+
+.personal_data_label {
+  display: flex;
+  align-items: center;
+}
+
+.personal_data_distribution {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.personal_data_text {
+  color: gray;
+  margin-top: 10px;
+  width: 600px;
+}
+
+.quit_area {
+  text-align: start;
+}
+
+.button_quit {
+  padding: 5px 20px;
+  background-color: #925555;
+}

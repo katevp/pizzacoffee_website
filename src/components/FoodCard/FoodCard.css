@@ -1,0 +1,138 @@
+.registration {
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.topfood_title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 150%;
+}
+
+.topfood_list { 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.food_card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 570px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1190px) {
+  .topfood_list {
+    justify-content: center;
+}
+}
+
+.food_card_image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.food_card_text_information {
+  width: 100%;
+  padding: 15px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.food_card_name {
+  font-weight: 400;
+  font-size: 28px;  
+  line-height: 32px;
+  min-height: 68px;
+}
+
+.food_card_about {
+  font-weight: 400;
+  font-size: 14px;  
+  line-height: 18px;
+  color: rgb(179, 179, 179);
+}
+
+.food_card_size {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: gray;
+  /* margin-bottom: 20px; */
+}
+
+.food_card_price {
+  font-weight: 400;
+  font-size: 28px;  
+  line-height: 32px;
+}
+
+.food_card_button {
+  /* margin-top: 30px; */
+  width: 180px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  background: #FECF3D;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 515px) {
+  .topfood_title {
+    font-size: 24px;
+  }
+  .topfood-section {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .food_card {
+    width: 270px;
+    height: 420px;
+  }
+  .food_card_about {
+    height: 54px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .food_card_image {
+    height: 165px;
+  }
+  .food_card_name {
+    font-size: 18px;
+    min-height: 48px;
+    line-height: normal;
+  }
+  .food_card_size {
+    font-size: 14px;
+  }
+  .food_card_price {
+    font-size: 16px;
+  }
+  .food_card_button {
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+  }
+}

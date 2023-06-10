@@ -1,0 +1,77 @@
+.order_page {
+  padding: 0 40px;
+  padding-bottom: 40px;
+}
+
+.basket_section {
+  width: 400px;
+}
+
+.order_title {
+  padding-left: 40px;
+}
+
+.input_order {
+  width: 100%;
+}
+
+.label_input_order {
+  width: 400px;
+}
+
+.order_block {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  .order_block {
+    flex-direction: column;
+    padding: 40px;
+  }
+}
+
+.order_form {
+  max-width: 500px;
+}
+
+.order_payments {
+  background: rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 34px;
+}
+
+.order_icon {
+  width: 33px;
+  margin-right: 4px;
+}
+
+.sber_icon {
+  width: 40px;
+  height: 20px;
+}
+
+.order_payments_list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.order_payments_list_item {
+  display: flex;
+  align-items: center;
+}
+
+.button_choose {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.order_card_title {
+  font-size: 18px;
+}

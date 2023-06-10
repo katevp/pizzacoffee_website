@@ -1,0 +1,40 @@
+.notify_bar_info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.notify_bar_notice {
+  background-color: #7fa74f;
+}
+
+.notify_bar_notice_error {
+  background-color: #dd6c6c;
+}
+
+.notify_bar_notice_text {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.notify_bar_notice_close_btn {
+  position: absolute;
+  top: 21%;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  width: 24px;
+  font-size: 24px;
+  height: 24px;
+  display: block;
+  text-align: center;
+}

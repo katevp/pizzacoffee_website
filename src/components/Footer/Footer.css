@@ -1,0 +1,157 @@
+.footer {
+  width: 100%;
+  background: rgb(24, 24, 24);
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+
+.footer_links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_links_left {
+  display: flex;
+}
+
+.footer_links_left_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+
+.footer_link_item {
+  margin-bottom: 8px;
+  text-align: start;
+  color: gray;
+}
+
+.link-item-right {
+  text-align: end;
+}
+
+.item-number-phone {
+  color: white;
+  font-size: 24px;
+}
+
+.item-email {
+  color: rgb(199, 199, 199);
+}
+
+.footer_link_item_link {
+  font-size: 18px;
+  color: gray;
+  text-decoration: none;
+  text-align: start;
+  font-weight: 300;
+}
+
+.item_link_title {
+  font-weight: 500;
+  color: white;
+} 
+
+.footer_information {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  border-top: 1px solid rgb(49, 49, 49);
+}
+
+.footer_helper {
+  border-top: 1px solid rgb(49, 49, 49);
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.footer_helper_nav_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_helper_nav_list_item {
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer_helper_documents {
+  padding: 20px 0;
+  padding-bottom: 0;
+}
+
+.footer_info_small {
+  color: gray;
+  font-size: 10px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 620px) {
+  .footer_links_left {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .footer {
+    padding: 30px 20px
+  }
+  .item-number-phone {
+    font-size: 18px;
+  }
+  .footer_link_item_link  {
+    font-size: 16px;
+  }
+  .footer_links_left_list {
+    margin-right: 10px;
+  }
+  .footer_information {
+    justify-content: space-between;
+  }
+  .footer_helper_nav_list {
+    margin-right: 0;
+  }
+  .footer_helper {
+    padding: 0;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .item-number-phone {
+    font-size: 14px;
+  }
+  .footer_link_item_link  {
+    font-size: 14px;
+  }
+  .footer_link_item {
+    font-size: 14px;
+  }
+  .item-email {
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+  .footer_links_left_list {
+    margin-right: 10px;
+  }
+  .footer_information {
+    justify-content: space-between;
+  }
+  .footer_helper_nav_list {
+    margin-right: 0;
+  }
+  .footer_helper {
+    padding: 0;
+    padding-top: 20px;
+  }
+}

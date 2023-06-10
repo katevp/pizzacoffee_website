@@ -1,0 +1,102 @@
+.basket_modal {
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+}
+
+.basket_modal_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.basket_modal_title {
+  margin: 0;
+  background-color: rgb(251 251 251);
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.basket_modal_order_detail {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 15px;
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.basket_modal_order_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(223 223 223);
+}
+
+.order_item_title {
+  width: 150px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.order-button {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  background: white;
+}
+
+.basket_modal_order_detail-price {
+  padding: 0;
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(251 251 251);
+}
+
+.basket_modal_order_item_all {
+  padding: 0 15px;
+  border-bottom: none;
+}
+.basket_modal_order_item_all_price {
+  padding: 0 15px;
+  border-bottom: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.basket_price {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+.order-button-submit {
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FECF3D;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .basket_modal {
+    width: 300px;
+  }
+}

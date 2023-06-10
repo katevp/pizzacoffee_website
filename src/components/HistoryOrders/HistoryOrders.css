@@ -1,0 +1,52 @@
+.history_orders {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.history_orders_title {
+  text-align: start;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.history_orders_text {
+  text-align: start;
+  margin-top: 0;
+  color: gray;
+}
+
+.history_orders_list {
+  width: 600px;
+  margin: 0;
+  padding: 5px 0;
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.ho_name_col {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.ho_number_col {
+  width: 70px;
+  text-align: start;
+}
+
+.ho_time_col {
+  width: 250px;
+  text-align: start;
+ }
+
+.ho_price_col {
+  width: 100px;
+  text-align: start;
+}
+
+.ho_check_col {
+  width: 200px;
+  text-align: start;
+}
